@@ -1,13 +1,102 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  text-align: center;
 }
 
+.App-header p {
+  margin-top: 0%;
+  font-size: 12px;
+  word-spacing: 1ch;
+}
+
+.App-header h1{
+  font-size: 50px;
+  margin-bottom: 0.5rem;
+  /* padding:10px; */
+}
+
+.inputContainer {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.divider {
+  margin: auto;
+  width: 50px;
+  height: 3px;
+  background: rgb(102, 124, 165);
+  
+}
+
+.App-header {
+  margin-bottom: 2rem;
+}
+
+.arrayDisplay {
+  margin: auto;
+  margin-bottom: 2rem;
+  border: 1px solid rgb(102, 124, 165);
+  width: 500px;
+}
+
+.numInput {
+  cursor: text;
+  margin: 0.75rem;
+  font-size: 19px;
+  border-radius: 8px;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: rgb(232,240,255);
+}
+
+.titleInput {
+  border:none;
+  outline:none;
+  cursor:text;
+  font-size: 25px;
+  max-width: 1500px;
+  width: 100%;
+  text-align: center;
+}
+
+.bingo-container {
+  font-style: italic;
+}
+
+.bingo-container h4 {
+  margin: 1rem;
+  color:rgb(102, 124, 165)
+}
+
+.bingo-container table {
+  border: 2px solid #dddddd;
+  padding: 12px;
+  
+  margin-top: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 450px;
+}
+
+td {
+  padding: 7px;
+  font-size: 2.5rem;
+  border: 2px solid #dddddd;
+  width: 50px;
+  height:50px;
+}
+
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
